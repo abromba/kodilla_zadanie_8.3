@@ -1,0 +1,30 @@
+{
+  "name": "kodilla_zadanie_8_3",
+  "version": "1.0.0",
+  "description": "zadanie z kodilli 8.3 java script",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "kodilla"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbromba/kodilla_zadanie_8.3.git"
+  },
+  "keywords": [
+    "kodilla"
+  ],
+  "author": "Anna Mądra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbromba/kodilla_zadanie_8.3/issues"
+  },
+  "homepage": "https://github.com/sbromba/kodilla_zadanie_8.3#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
