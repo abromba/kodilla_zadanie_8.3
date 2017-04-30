@@ -29,9 +29,9 @@ module.exports = function(grunt) {
         options: {
            spawn: false,
         },
-      }
-	  js: {
-        files: ['js/*.js'],s
+      },
+	   js: {
+        files: ['js/*.js'],
         tasks: ['jshint'],
         options: {
            spawn: false,
@@ -51,11 +51,11 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
-      all: ['js/*.js'],    
-	  options: {
+      all: ['js/*.js'],
+      options: {
         force: true
       }
-	}
+    }
   });
  
   // Load the plugins tasks 
