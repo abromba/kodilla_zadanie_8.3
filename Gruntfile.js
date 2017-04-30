@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           cwd: 'images/',
-          src: ['copm.PNG'],
+          src: ['comp.png'],
           dest: 'images/build/'
         }]
       }
@@ -65,5 +65,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   // Default task(s).
-  grunt.registerTask('default', ['sass', 'imagemin', 'browserSync', 'jshint', 'watch' ]);
+  grunt.registerTask('default', ['sass', 'imagemin', 'browserSync', 'jshint', 'watch']);
 };
